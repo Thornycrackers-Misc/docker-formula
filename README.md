@@ -1,4 +1,4 @@
 # Docker Formulae
 
 
-Salt Docker formulae for Ubuntu 18.04
+Salt Docker formulae for Ubuntu 16.04
