@@ -6,13 +6,7 @@ docker gpg:
 docker repo:
   pkgrepo.managed:
   - humanname: downloaddocker
-  - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
-  - file: /etc/apt/sources.list.d/downloaddocker.list
-
-docker repo:
-  pkgrepo.managed:
-  - humanname: downloaddocker
-  - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic edge
+  - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
   - file: /etc/apt/sources.list.d/downloaddocker.list
 
 docker pkg:
